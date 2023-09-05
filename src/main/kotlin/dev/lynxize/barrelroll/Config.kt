@@ -4,11 +4,11 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 class Config(
-	val allowThrusting: Boolean,
-	val forceEnabled: Boolean,
-	val forceInstalled: Boolean,
-	val installedTimeout: Int,
-	val kineticDamage: KineticDamage
+	val allowThrusting: Boolean = false,
+	val forceEnabled: Boolean = false,
+	val forceInstalled: Boolean = false,
+	val installedTimeout: Int = 40,
+	val kineticDamage: KineticDamage = KineticDamage.VANILLA
 )
 
 @Serializable
