@@ -1,0 +1,8 @@
+main: dev.lynxize.barrelroll.PaperBarrelRoll
+name: PaperBarrelRoll
+version: 0.1.0
+description: Do a Barrel Roll sync for Paper
+api-version: 1.20 # Change to match Minecraft major version
+author: lynxize  # [author1, author2] is also allowed
+website: https://github.com/lynxize/PaperBarrelRoll
+prefix: PaperBarrelRoll # Prefix shown in logged messages
